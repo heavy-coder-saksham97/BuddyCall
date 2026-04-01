@@ -7,7 +7,7 @@ const Landing = () => {
             {/* Navigation */}
             <nav className="landing-nav">
                 <div className="nav-brand">
-                    <svg className="nav-brand-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <svg className="nav-brand-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M23 7l-7 5 7 5V7z"></path>
                         <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                     </svg>
@@ -37,8 +37,8 @@ const Landing = () => {
                         Experience high-quality video calling and messaging built for modern teams and friends. No downloads required, just share a link and start talking.
                     </p>
                     <div className="hero-cta">
-                        <button className="btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1.125rem' }}>Start a meeting</button>
-                        <button className="btn-secondary" style={{ padding: '1rem 2.5rem', fontSize: '1.125rem' }}>View Pricing</button>
+                        <button className="btn-primary" style={{ padding: '0.75rem 1.75rem', fontSize: '1rem' }}>Start a meeting</button>
+                        <button className="btn-secondary" style={{ padding: '0.75rem 1.75rem', fontSize: '1rem' }}>View Pricing</button>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@ const Landing = () => {
                     {/* Feature 1 */}
                     <div className="feature-card">
                         <div className="feature-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M23 7l-7 5 7 5V7z"></path>
                                 <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                             </svg>
@@ -109,7 +109,7 @@ const Landing = () => {
                     {/* Feature 2 */}
                     <div className="feature-card">
                         <div className="feature-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
                                 <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
                                 <line x1="12" y1="19" x2="12" y2="23"></line>
@@ -123,7 +123,7 @@ const Landing = () => {
                     {/* Feature 3 */}
                     <div className="feature-card">
                         <div className="feature-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
                                 <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                             </svg>
@@ -135,7 +135,7 @@ const Landing = () => {
                     {/* Feature 4 */}
                     <div className="feature-card">
                         <div className="feature-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                             </svg>
                         </div>
@@ -153,8 +153,8 @@ const Landing = () => {
                         Join thousands of teams and friends who use BuddyCall every day. Create your free account in seconds.
                     </p>
                     <div className="cta-buttons">
-                        <button className="btn-primary" style={{ padding: '1rem 3rem', fontSize: '1.125rem' }}>Create Account</button>
-                        <button className="btn-secondary" style={{ padding: '1rem 3rem', fontSize: '1.125rem' }}>Join Meeting</button>
+                        <button className="btn-primary" style={{ padding: '0.75rem 2rem', fontSize: '1rem' }}>Create Account</button>
+                        <button className="btn-secondary" style={{ padding: '0.75rem 2rem', fontSize: '1rem' }}>Join Meeting</button>
                     </div>
                 </div>
             </section>
@@ -162,7 +162,7 @@ const Landing = () => {
             {/* Footer */}
             <footer className="landing-footer">
                 <div className="footer-brand">
-                    <svg className="nav-brand-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <svg className="nav-brand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M23 7l-7 5 7 5V7z"></path>
                         <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                     </svg>
