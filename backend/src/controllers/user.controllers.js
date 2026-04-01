@@ -25,7 +25,12 @@ const registeruser = async (req, res) => {
         const newUser = new User({ username, email, password: hashedPassword, token });
         await newUser.save();
 
-        res.status(201).json({
+        const options = {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production"
+        };
+
+        res.status(201).cookie("token", token, options).json({
             message: "User registered successfully",
             token
         });
@@ -61,7 +66,12 @@ const loginuser = async (req, res) => {
         user.token = token;
         await user.save();
 
-        res.status(200).json({
+        const options = {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production"
+        };
+
+        res.status(200).cookie("token", token, options).json({
             message: "User logged in successfully",
             token
         });
